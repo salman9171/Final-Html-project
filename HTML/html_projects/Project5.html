@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+</html>
+<h2>Course Registration Form</h2>
+<fieldset>
+    <legend>Personal Details</legend>
+    <table>
+        <tr>
+            <td><label for="Fn">First Name </label></td>
+            <td><input type="text" name="Fn" id="Fn" placeholder="EX: Salman" /></td>
+        </tr>
+        <tr><td><label for="Sn">Surename</label>
+</td>
+        <td><input type="text" name="Sn" id="Sn" placeholder=" Sk" />
+</td></tr>
+        <tr><td><label for="ph">Mobile number</label>
+</td>
+        <td><input type="tel " name="ph" id="ph" placeholder="Ex:9059-777-297" />
+</td></tr>
+        <tr><td><label for="email">Email</label>
+</td>
+        <td><input type="email" name="email" id="email" placeholder="Salman@gmail.com" />
+</td></tr>
+        <tr><td><label for="pass">Password</label>
+</td>
+        <td><input type="password" name="pass" id="pass" placeholder="Min 8 charecters"/>
+</td></tr>
+        <tr><td><label for="password">Confirm Password</label>
+</td>
+        <td><input type="password" name="password" id="password" placeholder="Min 8 charecters"/>
+</td></tr>
+        <tr><td><label for="dob">DOB</label>
+</td>
+        <td><input type="date" name="dob" id="dob" /> 
+</td>
+</tr>
+<tr>
+    <td><label for="age">Age</label></td>
+    <td><input type="number" min="18" max="60" name="Age" id="age"></td>
+</tr>
+        <tr><td><label for="G">Gender</label>
+</td>
+        <td>
+<input type="radio" value="Male" name="G" id="G" />
+<label for="">Male</label>
+<input type="radio" value="Female" name="G" id="G" />
+<label for="">Female</label>
+<input value="Other" type="radio" name="G" id="G" />
+<label  for="">Other</label></td></tr>
+        <tr><td><label for="">Select Country</label>
+</td>
+        <td><select name="" id="">
+  <option value disabled selected>-- Select --</option>
+  <option value="India">India</option>
+  <option value="UK">UK</option>
+  <option value="USA">USA</option>
+  <option value="China">China</option></select
+></td></tr>
+        <tr><td><label for="pic">Upload Picture</label>
+</td>
+        <td><input type="file" name="pic" id="pic" accept="image" /></fieldset>
+</td></tr>
+    </table>
+
+</fieldset>
+<input type="reset" >
+
+
+<fieldset>
+    <legend>Course details</legend>
+    <table>
+        <tr><td>    <label for="">Select course</label>
+</td>
+        <td><select name="" id="">
+        <option value disabled selected>-- select course --</option>
+        <option value="">Java Full Stack</option>
+        <option value="">Python full Stack</option>
+        <option value="">MERN full Stack</option>
+        <option value="">Python For data base</option>
+    </select></td></tr>
+        <tr><td>    <label for="">Delivery Mode</label>
+</td>
+        <td>    <input type="checkbox" name="" id="">
+             <label for="">ONLINE</label>
+    <input type="checkbox" name="" id="">
+    <label for="">Offline</label><br>
+</td></tr>
+        <tr><td>    <label for="comm">Comment</label>
+</td>
+        <td>    <textarea name="comm" id="comm" placeholder="---Enter any additional comment ---" rows="3" cols="25"></textarea>
+</td></tr>
+    </table>
+    
+   
+</fieldset>
+<button value="Submit">Submit </button>
+</body>
