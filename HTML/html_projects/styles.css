@@ -1,0 +1,131 @@
+/* ===== RESET ===== */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:"Segoe UI",Tahoma,Geneva,Verdana,sans-serif;
+}
+
+/* ===== BODY ===== */
+body{
+  background:linear-gradient(135deg,#0f172a,#111827);
+  color:#e5e7eb;
+  padding:30px;
+  line-height:1.7;
+}
+
+/* ===== MAIN TITLE ===== */
+h1{
+  text-align:center;
+  padding:20px;
+  margin-bottom:30px;
+  border-radius:14px;
+  background:linear-gradient(90deg,#2563eb,#06b6d4);
+  color:#fff;
+  letter-spacing:1px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.4);
+}
+
+/* ===== SECTION HEADINGS ===== */
+h2{
+  margin:35px 0 15px;
+  padding:12px 14px;
+  background:#020617;
+  border-left:4px solid #38bdf8;
+  border-radius:6px;
+  color:#38bdf8;
+}
+
+/* ===== SUB HEADINGS ===== */
+h3{
+  margin:20px 0 10px;
+  padding:8px 14px;
+  border-radius:8px;
+  width:fit-content;
+  font-size:18px;
+  background:rgba(255,255,255,0.04);
+  border:1px solid rgba(255,255,255,0.12);
+}
+
+/* ===== AUDIO PLAYER ===== */
+audio{
+  width:100%;
+  margin:10px 0 15px;
+  border-radius:10px;
+  border:1px solid rgba(255,255,255,0.15);
+  box-shadow:0 4px 14px rgba(0,0,0,0.5);
+}
+
+/* ===== DIVIDER ===== */
+hr{
+  margin:50px 0;
+  height:2px;
+  border:none;
+  background:linear-gradient(to right,transparent,#38bdf8,transparent);
+}
+
+/* =======================================================
+   🎬 PRO MEDIA LAYOUT (NO HTML CHANGE NEEDED)
+   Image + Video Side by Side Automatically
+======================================================= */
+img,
+video{
+  display:inline-block;
+  vertical-align:top;
+  margin:15px 10px 10px 0;
+  border-radius:14px;
+  border:2px solid rgba(255,255,255,0.18);
+  box-shadow:0 10px 25px rgba(0,0,0,0.6);
+  transition:0.25s ease;
+}
+
+/* Poster width */
+img{
+  width:260px;
+  max-width:100%;
+}
+
+/* Video takes remaining space */
+video{
+  width:calc(100% - 280px);
+  max-width:100%;
+}
+
+/* Hover Effect (Professional) */
+img:hover,
+video:hover{
+  transform:translateY(-5px);
+  border-color:#38bdf8;
+}
+
+/* ===== DESCRIPTION CARDS ===== */
+p{
+  background:rgba(255,255,255,0.05);
+  padding:20px;
+  margin:20px 0 35px;
+  border-radius:12px;
+  border:1px solid rgba(255,255,255,0.08);
+  box-shadow:0 6px 18px rgba(0,0,0,0.4);
+  color:#d1d5db;
+  max-width:1100px;
+}
+
+/* ===== CONTAINER WIDTH ===== */
+.container{
+  max-width:1100px;
+  margin:auto;
+}
+
+/* ===== MOBILE RESPONSIVE ===== */
+@media(max-width:768px){
+
+  img,
+  video{
+    display:block;
+    width:100%;
+  }
+
+  h1{
+    font-size:22px;
+  }
+}
